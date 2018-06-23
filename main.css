@@ -1,0 +1,49 @@
+.celula{
+    width: 100px;
+    height: 100px;
+    background: rgb(56, 93, 255);
+    color: rgb(56, 93, 255);
+    font-size: 80px;
+    text-align: center;
+}
+
+#Selecao{
+    width: 220px;
+}
+
+#X{
+    text-align: center;
+    font-size: 80px;
+    color: red;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    float: left;
+    left: 0px;
+}
+
+#O{
+    text-align: center;
+    font-size: 80px;
+    color: red;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    float: left;
+}
+
+#ou{
+    text-align: center;
+    position: relative;
+    float: left;
+    top:35px;
+}
+
+.Selecao:before,
+.Selecao:after {
+    content: "";
+    display: "table";
+}
+.Selecao:after {
+    clear: both;
+}
